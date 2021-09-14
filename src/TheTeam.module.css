@@ -1,0 +1,16 @@
+.root {
+	text-align: left;
+	padding: 0 10vw;
+	margin-top: 2rem;
+}
+
+.heading {
+	font-size: 4rem;
+	text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+	.heading {
+		font-size: 6.5vw;
+	}
+}

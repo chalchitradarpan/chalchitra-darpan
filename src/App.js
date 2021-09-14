@@ -5,6 +5,7 @@ import theme from './theme'
 import Navbar from './Navbar';
 import Banner from './Banner';
 import styles from './App.module.css';
+import TheTeam from './TheTeam';
 
 function App() {
   return (
@@ -15,9 +16,7 @@ function App() {
             <Navbar/>
             <main className={styles.pagemain}>
               <Banner/>
-              <div>
-                sasa
-              </div>
+              <TheTeam/>
             </main>
           </Router>
         </CssBaseline>
