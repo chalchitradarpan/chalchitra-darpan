@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from '@material-ui/core'
+import CssBaseline from '@material-ui/core/CssBaseline'
+import { BrowserRouter as Router } from 'react-router-dom'
+import theme from './theme'
+import Navbar from './Navbar';
+import Banner from './Banner';
+import styles from './App.module.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme}>
+        <CssBaseline>
+          <Router>
+            <Navbar/>
+            <main className={styles.pagemain}>
+              <Banner/>
+            </main>
+          </Router>
+        </CssBaseline>
+      </ThemeProvider>
     </div>
   );
 }

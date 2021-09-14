@@ -1,0 +1,37 @@
+.banner {
+	font-size: 2rem;
+	width:auto;
+	background-color: #000000;
+	color: #000000;
+	font-family: GraublauWeb;
+}
+
+.banner__text {
+	background-color: #ffffff;
+	margin-bottom: 12px;
+}
+
+.banner__title {
+	font-size: 6vw;
+}
+
+.banner__subtext {
+	font-size: 3vw;
+}
+
+.banner__reel {
+	width: 100%;
+	transform: scaleX(-1);
+	height: auto;
+}
+
+.banner__reelgrid {
+	display: flex;
+	align-items: flex-end;
+}
+
+.banner__spotlight {
+	max-width: 100%;
+	height: auto;
+	margin-right: 0rem;
+}

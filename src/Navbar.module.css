@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  background-color: #000000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0rem;
+  width: 100%;
+  max-height: 8rem;
+}
+
+.navbar__logo {
+  height: 8rem;
+  margin-left: 5%;
+}
+
+.navbar__menu {
+  position: absolute;
+  top: 0.5%;
+  right: 1rem;
+  display: none;
+}
+
+.navbar__buttonbar {
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 85rem;
+  margin-right: 3%;
+}
+
+.navbar__buttonbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__buttonbar li {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  box-shadow: none;
+  padding: 2rem 0rem;
+  width: 11rem;
+}
+
+.navbar__buttonLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 0rem;
+    height: 6rem;
+  }
+
+  .navbar__menu {
+    display: block;
+  }
+
+  .navbar__logo {
+    height: 6rem;
+  }
+
+  .navbar__buttonbar {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #000000;
+  }
+
+  .navbar__buttonbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar__buttonbar li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar__button {
+    width: 100%;
+  }
+
+  .navbar__buttonbar.active {
+    display: flex;
+  }
+}
