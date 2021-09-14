@@ -15,6 +15,9 @@ function App() {
             <Navbar/>
             <main className={styles.pagemain}>
               <Banner/>
+              <div>
+                sasa
+              </div>
             </main>
           </Router>
         </CssBaseline>

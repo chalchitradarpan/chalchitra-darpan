@@ -45,12 +45,12 @@ const Navbar = () => {
 					</Link>
           <Link to="/servicetable" className={styles.navbar__buttonLink}>
 						<li className={styles.navbar__button}>
-             Call for papers 21-22
+             Call For Papers<br/> 21-22
             </li>
 					</Link>
 					<Link to="/servicetable" className={styles.navbar__buttonLink}>
 						<li className={styles.navbar__button}>
-             Contact us
+             Contact Us
             </li>
 					</Link>
         </ul>
