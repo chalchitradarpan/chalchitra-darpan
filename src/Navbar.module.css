@@ -1,4 +1,5 @@
 .navbar {
+  text-align: center;
   position: fixed;
   display: flex;
   background-color: #000000;
@@ -10,8 +11,11 @@
   z-index: 2;
 }
 
-.navbar__logo {
+.navbar__logo{
   height: 8rem;
+}
+
+.home {
   margin-left: 5%;
 }
 
@@ -59,7 +63,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem 0rem;
-    height: 6rem;
+    height: 4rem;
   }
 
   .navbar__menu {
@@ -67,7 +71,7 @@
   }
 
   .navbar__logo {
-    height: 6rem;
+    height: 4rem;
   }
 
   .navbar__buttonbar {
@@ -84,6 +88,7 @@
   }
 
   .navbar__buttonbar li {
+    padding: 1.5rem 0rem;
     display: flex;
     justify-content: center;
   }

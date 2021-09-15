@@ -1,9 +1,10 @@
 .banner {
+	text-align: center;
 	font-size: 2rem;
 	width:auto;
 	background-color: #000000;
 	color: #000000;
-	font-family: GraublauWeb;
+	font-family: GlacialIndiff;
 }
 
 .banner__text {

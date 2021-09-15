@@ -1,0 +1,33 @@
+.root {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+	align-items: center;
+	padding: 0 10vw;
+	margin-top: 2rem;
+}
+
+.container {
+	margin-top: 3rem;
+	text-align: left;
+}
+
+.heading {
+	align-self: flex-start;
+}
+
+.paragraph {
+	font-size: 1.6rem;
+}
+
+@media screen and (max-width: 900px) {
+	.paragraph {
+		font-size: 3.8vw;
+	}
+
+	.container {
+		margin-top: 0vh;
+	}
+}

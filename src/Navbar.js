@@ -6,18 +6,19 @@ import CloseRoundedIcon from '@material-ui/icons/CloseRounded'
 import styles from './Navbar.module.css'
 
 const Navbar = () => {
-  const [click, setClick] = useState(false)
-  const handleClick = () => setClick(!click)
+  const [open, setOpen] = useState(false)
 
   return (
     <nav className={styles.navbar}>
-        <img src="2.png" className={styles.navbar__logo} alt="Chalchitra Darpan"></img>
+      <a className={styles.home} href="/">
+        <img src="2.png" alt="Chalchitra Darpan" className={styles.navbar__logo} ></img> 
+      </a> 
       <div
         className={styles.navbar__menu}
-        onClick={handleClick}
+        onClick={() => setOpen(!open)}
       >
         <IconButton edge="start" color="secondary" aria-label="menu">
-          {click ? (
+          {open ? (
             <CloseRoundedIcon style={{ fontSize: 50 }} />
           ) : (
             <MenuRoundedIcon style={{ fontSize: 50 }} />
@@ -25,34 +26,34 @@ const Navbar = () => {
         </IconButton>
       </div>
       <section
-        className={`${styles.navbar__buttonbar} ${click ? styles.active : ''} `}
+        className={`${styles.navbar__buttonbar} ${open ? styles.active : ''} `}
       >
         <ul>
-					<Link to="/servicelist" className={styles.navbar__buttonLink}>
+					<a href="/#About" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
 							About
 						</li>
-					</Link>
-          <Link to="/servicetable" className={styles.navbar__buttonLink}>
+					</a>
+          <a href="/#the__team" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Editorial Board
             </li>
-					</Link>
-					<Link to="/servicetable" className={styles.navbar__buttonLink}>
+					</a>
+					<Link to="/archives" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Archives
             </li>
 					</Link>
-          <Link to="/servicetable" className={styles.navbar__buttonLink}>
+          <Link to="/callforpapers" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Call For Papers<br/> 21-22
             </li>
 					</Link>
-					<Link to="/servicetable" className={styles.navbar__buttonLink}>
+					<a href="/#contact__us" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Contact Us
             </li>
-					</Link>
+					</a>
         </ul>
       </section>
     </nav>

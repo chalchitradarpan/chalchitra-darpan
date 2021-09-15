@@ -1,9 +1,31 @@
-import { createMuiTheme } from '@material-ui/core/styles'
-const theme = createMuiTheme({
+import { createTheme } from '@material-ui/core/styles'
+const theme = createTheme({
+  typography: {
+    fontFamily: [
+      'lato',
+      'poppins',
+      'Manrope',
+      'Helvetica Neue',
+      'Segoe UI',
+      'Roboto',
+      'Oxygen',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      'Ubuntu',
+      'Cantarell',
+      'Fira Sans',
+      'Droid Sans',
+      'sans-serif'
+    ].join(',')
+  },
   breakpoints: {
     values: {
       xs: 0,
-      sm: 400
+      sm: 600,
+      md: 700,
+      lg: 900,
+      xl: 1100,
+      xxl: 1200
     }
   },
   palette: {
