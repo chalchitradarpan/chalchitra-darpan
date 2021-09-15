@@ -11,7 +11,7 @@ const TheTeam = () => {
 			<Grid container xs={12} className={styles.container} spacing={8}>
 				<Grid item xs={12} className={styles.person}>
 					<span className={styles.image__block} >
-						<img className={styles.image} src="faaria.jpeg" alt="Faaria Hilaly"></img>
+						<img className={styles.image} src="faaria_hilaly.jpeg" alt="Faaria Hilaly"></img>
 					</span>
 					<span className={styles.name}>
 						Faaria Hilaly
