@@ -10,7 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 
 const About = () => {
 	return (
-    <div className={styles.root} id="contact__us">
+    <div className={styles.root} id="contactus">
 			<Grid container xs={12} className={styles.container}>
 				<Grid item xs={12} className={styles.logobar}>
 					<img className={styles.logo} src="1.png" alt="logo"></img>

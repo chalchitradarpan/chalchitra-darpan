@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 
 const TheTeam = () => {
 	return (
-    <div className={styles.root} id="the__team">
+    <div className={styles.root} id="theteam">
 			<h1 className={styles.heading}>
 				Editorial Board
 			</h1>
