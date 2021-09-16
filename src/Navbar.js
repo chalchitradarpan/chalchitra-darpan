@@ -7,6 +7,12 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
+  const pageChange = () => {
+    console.log('page change')
+    window.scroll({ top: 0, left: 0, behavior: 'smooth' })
+    setOpen(false)
+  }
+
 
   return (
     <nav className={styles.navbar}>
@@ -39,12 +45,12 @@ const Navbar = () => {
              Editorial Board
             </li>
 					</a>
-					<Link to="/archives" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+					<Link to="/archives" className={styles.navbar__buttonLink} onClick={pageChange}>
 						<li className={styles.navbar__button}>
              Archives
             </li>
 					</Link>
-          <Link to="/callforpapers" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+          <Link to="/callforpapers" className={styles.navbar__buttonLink} onClick={pageChange}>
 						<li className={styles.navbar__button}>
              Call For Papers<br/> 21-22
             </li>
