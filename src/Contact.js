@@ -46,17 +46,17 @@ const About = () => {
 						<IconButton color="primary" disableFocusRipple onClick={() => {
 							window.open('https://in.linkedin.com/company/celluloid-the-film-club-of-miranda-house')
 						}}>
-							<LinkedInIcon style={{ fontSize: 50 }}/>
+							<LinkedInIcon style={{ fontSize: 50, color: '#000000' }} />
 						</IconButton>
 						<IconButton color="primary" disableFocusRipple onClick={() => {
 							window.open('https://instagram.com/celluloid.mhfilmclub')
 						}}>
-							<InstagramIcon style={{ fontSize: 50 }}/>
+							<InstagramIcon style={{ fontSize: 50, color: '#000000' }}/>
 						</IconButton>
 						<IconButton color="primary" disableFocusRipple onClick={() => {
 							window.open('https://celluloidblogsite.wordpress.com')
 						}}>
-							<BookIcon style={{ fontSize: 50 }}/>
+							<BookIcon style={{ fontSize: 50, color: '#000000' }}/>
 						</IconButton>
 					</span>
 				</Grid>
