@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Grid from '@material-ui/core/Grid';
 import styles from './CallForPapers.module.css'
 
 const CallForPapers = () => {
+	useEffect(() => {
+		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+	},[])
+
 	return (
     <React.Fragment>
 			<div className={styles.root}>

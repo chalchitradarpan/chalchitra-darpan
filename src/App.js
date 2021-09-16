@@ -10,7 +10,6 @@ import About from './About';
 import Contact from './Contact';
 import CallForPapers from './CallForPapers';
 import Archives from './Archives';
-import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline>
           <Router>
-            <ScrollToTop/>
             <Navbar/>
             <main className="pagemain">
               <Switch>
@@ -26,17 +24,15 @@ function App() {
                   <Banner/>
                   <About/>
                   <TheTeam/>
-                  <Contact/>
                 </Route>
                 <Route exact path="/callforpapers">
                   <CallForPapers/>
-                  <Contact/>
                 </Route>
                 <Route exact path="/archives">
                   <Archives/>
-                  <Contact/>
                 </Route>
               </Switch>
+              <Contact/>
             </main>
           </Router>
         </CssBaseline>

@@ -49,7 +49,7 @@ const Navbar = () => {
              Call For Papers<br/> 21-22
             </li>
 					</Link>
-					<a href="/#contactus" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+					<a href="#contactus" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Contact Us
             </li>
