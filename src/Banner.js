@@ -32,7 +32,7 @@ const Navbar = () => {
 					</Grid>
 				</Grid>
 				<Grid item xs={3} className={styles.banner__spotlightGrid}>
-					<img src="spotlight.png" alt="a spotlight" className={styles.banner__spotlight}></img>
+					<img src="spotlight1.png" alt="a spotlight" className={styles.banner__spotlight}></img>
 				</Grid>
 			</Grid>
     </div>
