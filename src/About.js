@@ -11,8 +11,7 @@ const About = () => {
 			<Grid container xs={12} className={styles.container}>
 				<p className={styles.paragraph}>
 					<b><i>Chalchitra Darpan</i></b> (translation: Cinematic Review) is an undergraduate film journal by Celluloid, the Film Society of
-					Miranda House, University of Delhi. The inaugural edition (2019-20), which was Delhi
-					University’s first ever undergraduate journal, was introduced with the vision of building a
+					Miranda House, University of Delhi. The inaugural edition (2019-20), Delhi university's only undegraduate film journal, was introduced with the vision of building a
 					student community of future film scholars around it. The journal aims to provide an
 					academic space for undergraduates interested in film and media, who wish to explore and
 					engage in film academia.
