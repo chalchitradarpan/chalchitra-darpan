@@ -18,7 +18,7 @@ const About = () => {
 				</Grid>
 				<Grid item xs={12} md={6} xl={4} className={styles.footer__block}>
 					<span>
-						<CopyrightIcon style={{ fontSiz: 40 }}/> 2021 Chalchitra Darpan
+						<CopyrightIcon style={{ fontSize: 20 }}/> 2021 Chalchitra Darpan
 					</span>
 					<span>
 						Website designed by Ashray Sinha
