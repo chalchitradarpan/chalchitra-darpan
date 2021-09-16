@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chalchitra-darpan/static/css/main.2d36890b.chunk.css",
-    "main.js": "/chalchitra-darpan/static/js/main.9b03b932.chunk.js",
-    "main.js.map": "/chalchitra-darpan/static/js/main.9b03b932.chunk.js.map",
+    "main.js": "/chalchitra-darpan/static/js/main.95a72f61.chunk.js",
+    "main.js.map": "/chalchitra-darpan/static/js/main.95a72f61.chunk.js.map",
     "runtime-main.js": "/chalchitra-darpan/static/js/runtime-main.7fdc3095.js",
     "runtime-main.js.map": "/chalchitra-darpan/static/js/runtime-main.7fdc3095.js.map",
     "static/js/2.ac0aa7c2.chunk.js": "/chalchitra-darpan/static/js/2.ac0aa7c2.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.7fdc3095.js",
     "static/js/2.ac0aa7c2.chunk.js",
     "static/css/main.2d36890b.chunk.css",
-    "static/js/main.9b03b932.chunk.js"
+    "static/js/main.95a72f61.chunk.js"
   ]
 }
