@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.home} href="/chalchitra-darpan">
+      <a className={styles.home} href="/">
         <img src="2.png" alt="Chalchitra Darpan" className={styles.navbar__logo} ></img> 
       </a> 
       <div
@@ -29,27 +29,27 @@ const Navbar = () => {
         className={`${styles.navbar__buttonbar} ${open ? styles.active : ''} `}
       >
         <ul>
-					<a href="/chalchitra-darpan#About" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+					<a href="/#About" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
 							About
 						</li>
 					</a>
-          <a href="/chalchitra-darpan#theteam" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+          <a href="/#theteam" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Editorial Board
             </li>
 					</a>
-					<Link to="/chalchitra-darpan/archives" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+					<Link to="/archives" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Archives
             </li>
 					</Link>
-          <Link to="/chalchitra-darpan/callforpapers" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+          <Link to="/callforpapers" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Call For Papers<br/> 21-22
             </li>
 					</Link>
-					<a href="/chalchitra-darpan#contactus" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
+					<a href="/#contactus" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
 						<li className={styles.navbar__button}>
              Contact Us
             </li>

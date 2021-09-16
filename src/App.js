@@ -22,17 +22,17 @@ function App() {
             <Navbar/>
             <main className="pagemain">
               <Switch>
-                <Route exact path="/chalchitra-darpan">
+                <Route exact path="/">
                   <Banner/>
                   <About/>
                   <TheTeam/>
                   <Contact/>
                 </Route>
-                <Route exact path="/chalchitra-darpan/callforpapers">
+                <Route exact path="/callforpapers">
                   <CallForPapers/>
                   <Contact/>
                 </Route>
-                <Route exact path="/chalchitra-darpan/archives">
+                <Route exact path="/archives">
                   <Archives/>
                   <Contact/>
                 </Route>
