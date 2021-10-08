@@ -136,7 +136,7 @@ const CallForPapers = () => {
 					</h3>
 					<ul className={`${styles.listempty}`}>
 						<li>
-							Abstract Submission Deadline: 10th October, 2021
+							Abstract Submission Deadline: 15th October, 2021
 						</li>
 						<li>
 							Abstract Decision Announcement: 25th October, 2021
