@@ -25,7 +25,7 @@ function App() {
                   <About/>
                   <TheTeam/>
                 </Route>
-                <Route exact path="/callforpapers">
+                <Route exact path="/chalchitradarpan21_22">
                   <CallForPapers/>
                 </Route>
                 <Route exact path="/archives">

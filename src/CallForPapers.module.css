@@ -9,6 +9,10 @@
 	margin-top: 1rem;
 }
 
+.root > * {
+	text-align: center;
+}
+
 .container {
 	margin-top: 3rem;
 	font-size: 1.6rem;
@@ -59,6 +63,11 @@ ol {
 
 .paragraph {
 	overflow-wrap: anywhere;
+}
+
+.chalchitraDarpanTopic {
+	align-self: center ;
+	margin-bottom: 15vh;
 }
 
 @media screen and (max-width: 900px) {

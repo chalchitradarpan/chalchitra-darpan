@@ -50,9 +50,9 @@ const Navbar = () => {
              Archives
             </li>
 					</Link>
-          <Link to="/callforpapers" className={styles.navbar__buttonLink} onClick={pageChange}>
+          <Link to="/chalchitradarpan21_22" className={styles.navbar__buttonLink} onClick={pageChange}>
 						<li className={styles.navbar__button}>
-             Call For Papers<br/> 21-22
+             Chalchitra Darpan<br/> 21-22
             </li>
 					</Link>
 					<a href="#contactus" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>

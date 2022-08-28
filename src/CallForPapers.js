@@ -1,5 +1,5 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid';
+// import Grid from '@material-ui/core/Grid';
 import styles from './CallForPapers.module.css'
 
 const CallForPapers = () => {
@@ -7,10 +7,13 @@ const CallForPapers = () => {
     <React.Fragment>
 			<div className={styles.root}>
 				<h1>
-					Call For Papers
+					Chalchitra Darpan (2021-22)
 				</h1>
+				<h3 className={styles.chalchitraDarpanTopic}>
+					Sex & Horror
+				</h3>
 			</div>
-			<Grid container xs={12} className={styles.imageBlock}>
+			{/* <Grid container xs={12} className={styles.imageBlock}>
 				<Grid item xs={4}>
 					<img src="papers_1.png" alt="call for papers 1st" className={styles.image}></img>
 				</Grid>
@@ -168,7 +171,7 @@ const CallForPapers = () => {
 					Please feel free to contact us for further queries.
 					</p>
 				</Grid>
-			</div>
+			</div> */}
 		</React.Fragment>
   )
 }
