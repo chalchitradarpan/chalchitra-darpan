@@ -16,7 +16,7 @@ const CallForPapers = () => {
 					<Grid item xs={12} md={6} xl={4} className={styles.cover}>
 						<span className={styles.image__block} >
 							<img className={styles.image} src="edition21-22.png" alt="Latest edition" onClick={() => {
-								window.open('https://drive.google.com/file/d/1DFCZZAJOGJ--66zsoJMnCYr2Q2v4XebS/view')
+								window.open('Chalchitra Darpan(21-22)- Sex & Horror.pdf')
 							}}>
 							</img>
 						</span>
