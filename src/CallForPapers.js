@@ -1,5 +1,5 @@
 import React from 'react'
-// import Grid from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid';
 import styles from './CallForPapers.module.css'
 
 const CallForPapers = () => {
@@ -9,9 +9,22 @@ const CallForPapers = () => {
 				<h1>
 					Chalchitra Darpan (2021-22)
 				</h1>
-				<h3 className={styles.chalchitraDarpanTopic}>
+				{/* <h3 className={styles.chalchitraDarpanTopic}>
 					Sex & Horror
-				</h3>
+				</h3> */}
+				<Grid container xs={12} className={styles.container1}>
+					<Grid item xs={12} md={6} xl={4} className={styles.cover}>
+						<span className={styles.image__block} >
+							<img className={styles.image} src="edition21-22.png" alt="Latest edition" onClick={() => {
+								window.open('Chalchitra Darpan(21-22)- Sex & Horror.pdf')
+							}}>
+							</img>
+						</span>
+						<span className={styles.name}>
+							Sex & Horror
+						</span>
+					</Grid>
+				</Grid>
 			</div>
 			{/* <Grid container xs={12} className={styles.imageBlock}>
 				<Grid item xs={4}>
