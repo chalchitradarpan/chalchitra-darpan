@@ -5,9 +5,9 @@ import './App.css';
 import theme from './theme'
 import Navbar from './Navbar';
 import Banner from './Banner';
-import TheTeam from './TheTeam';
+import TheTeam2k23 from './TheTeam_2k23';
 import About from './About';
-import Contact from './Contact';
+import Contact from './Contact_2k23';
 import CallForPapers from './CallForPapers';
 import Archives from './Archives';
 
@@ -23,7 +23,7 @@ function App() {
                 <Route exact path="/">
                   <Banner/>
                   <About/>
-                  <TheTeam/>
+                  <TheTeam2k23/>
                 </Route>
                 <Route exact path="/chalchitradarpan21_22">
                   <CallForPapers/>
