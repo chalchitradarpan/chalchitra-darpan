@@ -22,11 +22,12 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 3rem;
 }
 
 .image__block {
-	width: 22rem;
-	height: 27.5rem;
+	width: 16rem;
+	height: auto;
 	cursor:pointer;
 }
 
@@ -43,7 +44,7 @@
 @media screen and (max-width: 900px) {
 	.image__block {
 		width: 14rem;
-		height: 17.5rem;
+		height: auto;
 	}
 
 	.container {

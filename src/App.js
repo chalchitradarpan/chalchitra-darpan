@@ -8,7 +8,7 @@ import Banner from './Banner';
 import TheTeam2k23 from './TheTeam_2k23';
 import About from './About';
 import Contact from './Contact_2k23';
-import CallForPapers from './CallForPapers';
+import CallForPapers from './CallForPapers_2k23';
 import Archives from './Archives';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
                   <About/>
                   <TheTeam2k23/>
                 </Route>
-                <Route exact path="/chalchitradarpan21_22">
+                <Route exact path="/chalchitradarpan22_23">
                   <CallForPapers/>
                 </Route>
                 <Route exact path="/archives">
