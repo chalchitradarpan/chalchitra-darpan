@@ -6,13 +6,13 @@ const CallForPapers = () => {
 	return (
     <React.Fragment>
 			<div className={styles.root}>
-				<h1>
+				{/* <h1>
 					Chalchitra Darpan (2021-22)
-				</h1>
-				{/* <h3 className={styles.chalchitraDarpanTopic}>
+				</h1> */}
+				<h3 className={styles.chalchitraDarpanTopic}>
 					Sex & Horror
-				</h3> */}
-				<Grid container xs={12} className={styles.container1}>
+				</h3>
+				{/* <Grid container xs={12} className={styles.container1}>
 					<Grid item xs={12} md={6} xl={4} className={styles.cover}>
 						<span className={styles.image__block} >
 							<img className={styles.image} src="edition21-22.png" alt="Latest edition" onClick={() => {
@@ -24,9 +24,9 @@ const CallForPapers = () => {
 							Sex & Horror
 						</span>
 					</Grid>
-				</Grid>
+				</Grid> */}
 			</div>
-			{/* <Grid container xs={12} className={styles.imageBlock}>
+			<Grid container xs={12} className={styles.imageBlock}>
 				<Grid item xs={4}>
 					<img src="papers_1.png" alt="call for papers 1st" className={styles.image}></img>
 				</Grid>
@@ -184,7 +184,7 @@ const CallForPapers = () => {
 					Please feel free to contact us for further queries.
 					</p>
 				</Grid>
-			</div> */}
+			</div>
 		</React.Fragment>
   )
 }
