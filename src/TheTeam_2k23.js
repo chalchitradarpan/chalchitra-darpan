@@ -108,7 +108,17 @@ const TheTeam2k23 = () => {
 						(Journal Designer)
 					</span>
 				</Grid>
-
+				<Grid item xs={12} md={6} lg={4} className={styles.person}>
+					<span className={styles.image__block} >
+						<img className={styles.image} src="amrit.jpeg" alt="Amrit"></img>
+					</span>
+					<span className={styles.name}>
+						Amrit
+					</span>
+					<span className={styles.position}>
+						(Illustrator)
+					</span>
+				</Grid>
 			</Grid>
     </div>
   )
