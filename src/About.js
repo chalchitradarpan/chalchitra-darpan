@@ -26,9 +26,9 @@ const About = () => {
 					scholarship in cinema. Less than a year after the opening edition on “Urban Spaces”, the
 					second edition of <b><i>Chalchitra Darpan</i></b> (2021-22) is officially underway. */}
 					Owing to the COVID-19 crisis, the entire world came to a standstill that broke us all- financially,
-					mentally, physically, and in every other imaginable way. Unsurprisingly, <b><i>Chalchitra Darpan's</i></b>
+					mentally, physically, and in every other imaginable way. Unsurprisingly, <b><i>Chalchitra Darpan's </i></b>
 					publication process was also halted. However, the opening edition’s Editors-in-Chief, Oli Chatterjee and Giitanjali
-					made sure to see it through to the end- including the formation of a new team, thus ensuring the continuance
+					made sure to see it through to the end- including the formation of a new team, thus ensuring the continuation
 					of the platform for undergraduate research and scholarship in cinema. A year after the opening edition on
 					“Urban Spaces”, the second edition of <b><i>Chalchitra Darpan</i></b> (2021-22) "Sex and Horror", was successfully delivered
 					in September 2022.

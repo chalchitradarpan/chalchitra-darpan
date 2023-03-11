@@ -5,14 +5,14 @@ import styles from './CallForPapers.module.css'
 const CallForPapers2k23 = () => {
 	return (
     <React.Fragment>
-			<div className={styles.root}>
-				{/* <h1>
+			{/* <div className={styles.root}>
+				<h1>
 					Chalchitra Darpan (2021-22)
-				</h1> */}
-				{/* <h3 className={styles.chalchitraDarpanTopic}>
+				</h1>
+				<h3 className={styles.chalchitraDarpanTopic}>
 					3rd EDITION THEME: CINEMA IN CRISIS
-				</h3> */}
-				{/* <Grid container xs={12} className={styles.container1}>
+				</h3>
+				<Grid container xs={12} className={styles.container1}>
 					<Grid item xs={12} md={6} xl={4} className={styles.cover}>
 						<span className={styles.image__block} >
 							<img className={styles.image} src="edition21-22.png" alt="Latest edition" onClick={() => {
@@ -24,8 +24,8 @@ const CallForPapers2k23 = () => {
 							Sex & Horror
 						</span>
 					</Grid>
-				</Grid> */}
-			</div>
+				</Grid>
+			</div> */}
 			<div className={styles.root}>
 				<h2>
 					3rd EDITION THEME: CINEMA IN CRISIS
@@ -58,7 +58,7 @@ const CallForPapers2k23 = () => {
 					<p className={styles.paragraph}>
 						A technologically transforming cinema-scape is also a space for experimentation and resistance. This is a
 						cinema which some have termed as non-cinema, a form which disregards and reformulates the traditional ways
-						of visual storytelling. Jafar Panahi’s This Is Not a Film is, if the title isn’t obvious, a non-film. There
+						of visual storytelling. Jafar Panahi’s <i>This Is Not a Film</i> is, if the title isn’t obvious, a non-film. There
 						is also a marked proliferation of genres such as slow cinema, which is a non-narrative, sensorial form of
 						storytelling. The peripheral human experience is being documented in ways which had not been before with
 						themes such as gender, caste, race, class intersecting and forming a complex intersection. There is a steep
