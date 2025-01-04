@@ -32,6 +32,17 @@ const Archives = () => {
 							Second Edition (2021-22)
 						</span>
 					</Grid>
+                    <Grid item xs={12} sm={12} md={6} xl={4} className={styles.cover}>
+						<span className={styles.image__block} >
+							<img className={styles.image} src="edition22-23.png" alt="Third edition" onClick={() => {
+								window.open('Chalchitra Darpan(22-23)- Cinema in Crisis.pdf')
+							}}>
+							</img>
+						</span>
+						<span className={styles.name}>
+							Third Edition (2022-23)
+						</span>
+					</Grid>
 				</Grid>
 			</div>
 		</React.Fragment>

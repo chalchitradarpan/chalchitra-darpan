@@ -5,10 +5,10 @@ import './App.css';
 import theme from './theme'
 import Navbar from './Navbar';
 import Banner from './Banner';
-import TheTeam2k23 from './TheTeam_2k23';
+import TheTeam2k24 from './TheTeam_2k24';
 import About from './About';
-import Contact from './Contact_2k23';
-import CallForPapers from './CallForPapers_2k23';
+import Contact from './Contact_2k24';
+import CallForPapers from './CallForPapers_2k24';
 import Archives from './Archives';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
                 <Route exact path="/">
                   <Banner/>
                   <About/>
-                  <TheTeam2k23/>
+                  <TheTeam2k24/>
                 </Route>
                 <Route exact path="/chalchitradarpan22_23">
                   <CallForPapers/>

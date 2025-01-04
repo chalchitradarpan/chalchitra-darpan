@@ -52,7 +52,7 @@ const Navbar = () => {
 					</Link>
           <Link to="/chalchitradarpan22_23" className={styles.navbar__buttonLink} onClick={pageChange}>
 						<li className={styles.navbar__button}>
-             Call for Papers<br/> (2022-23)
+             Call for Papers<br/> (2024-25)
             </li>
 					</Link>
 					<a href="#contactus" className={styles.navbar__buttonLink} onClick={() => setOpen(false)}>
