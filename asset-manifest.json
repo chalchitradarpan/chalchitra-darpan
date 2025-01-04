@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7a43c5d.chunk.css",
-    "main.js": "/static/js/main.1ad736c0.chunk.js",
-    "main.js.map": "/static/js/main.1ad736c0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.28b06b65.js",
-    "runtime-main.js.map": "/static/js/runtime-main.28b06b65.js.map",
-    "static/js/2.aaa3baa5.chunk.js": "/static/js/2.aaa3baa5.chunk.js",
-    "static/js/2.aaa3baa5.chunk.js.map": "/static/js/2.aaa3baa5.chunk.js.map",
+    "main.css": "/static/css/main.8a1325d9.css",
+    "main.js": "/static/js/main.5c597282.js",
+    "static/media/GlacialIndifference-Regular.otf": "/static/media/GlacialIndifference-Regular.663a1c12d079e631b0b2.otf",
     "index.html": "/index.html",
-    "static/css/main.d7a43c5d.chunk.css.map": "/static/css/main.d7a43c5d.chunk.css.map",
-    "static/js/2.aaa3baa5.chunk.js.LICENSE.txt": "/static/js/2.aaa3baa5.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/GlacialIndifference-Regular.663a1c12.otf"
+    "main.8a1325d9.css.map": "/static/css/main.8a1325d9.css.map",
+    "main.5c597282.js.map": "/static/js/main.5c597282.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.28b06b65.js",
-    "static/js/2.aaa3baa5.chunk.js",
-    "static/css/main.d7a43c5d.chunk.css",
-    "static/js/main.1ad736c0.chunk.js"
+    "static/css/main.8a1325d9.css",
+    "static/js/main.5c597282.js"
   ]
 }
